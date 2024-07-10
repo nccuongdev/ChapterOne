@@ -1,11 +1,9 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {View, Text, SafeAreaView, ScrollView} from 'react-native';
 import React from 'react';
-import Part1 from './src/Basic/Part1';
+import MainScreen from './src/Basic/LectureTwo/screen/MainScreen';
 
 const App = () => {
-  return <Part1 />;
+  return <MainScreen />;
 };
 
 export default App;
-
-const styles = StyleSheet.create({});
