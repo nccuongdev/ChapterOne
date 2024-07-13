@@ -14,6 +14,7 @@ import DiceThree from '../../../asset/three.png';
 import DiceFour from '../../../asset/four.png';
 import DiceFive from '../../../asset/five.png';
 import DiceSix from '../../../asset/six.png';
+import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 
 type DiceProps = PropsWithChildren<{
   imageUrl: ImageSourcePropType;
@@ -54,6 +55,7 @@ export default function MainScreen4(): JSX.Element {
         setDiceImage(DiceOne);
         break;
     }
+    ReactNativeHapticFeedback.trigger('notificationSuccess');
   };
 
   return (

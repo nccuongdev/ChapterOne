@@ -3034,6 +3034,7 @@ __metadata:
     react: 18.2.0
     react-native: 0.74.3
     react-native-bouncy-checkbox: ^4.0.1
+    react-native-haptic-feedback: ^2.2.0
     react-test-renderer: 18.2.0
     typescript: 5.0.4
     yup: ^1.4.0
@@ -8033,6 +8034,15 @@ __metadata:
   dependencies:
     "@freakycoder/react-native-bounceable": ^1.0.3
   checksum: 2d15700d4d1c4d4119d5c906ea574036a59a2662e57c4991db9417bb0b81d8ee9524e112a780b6d7b6b14869ffe2d2ad2f833bb879f235f4d5f10288f187e03e
+  languageName: node
+  linkType: hard
+
+"react-native-haptic-feedback@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "react-native-haptic-feedback@npm:2.2.0"
+  peerDependencies:
+    react-native: ">=0.60.0"
+  checksum: e7ce6b303a799dc7fd1c5851379b555b65052c3ef7fefe836c7881f125e4057134462554a996762e67ecc7f01e82e45dc3bcad17cc232b53511006160d5f98ed
   languageName: node
   linkType: hard
 

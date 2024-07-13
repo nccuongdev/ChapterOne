@@ -7,6 +7,7 @@ import {
   View,
 } from 'react-native';
 import React, {useState} from 'react';
+import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 
 export default function MainScreen3() {
   const [backgroundColor, setBackgroundColor] = useState('#fff');
